@@ -2,26 +2,27 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">	
+    <!-- OPTIONAL: description -->
     <meta name="description" content="">
+    <!-- OPTIONAL: author -->
     <meta name="author" content="">
-    <link rel="shortcut icon" href="ico/favicon.png">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="icon.png" />
 
+		<!-- EDIT: title -->
     <title>My Awesome Resume</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
 
-    <!-- Custom styles for this template -->
+    <!-- Link the main.css stylesheet -->
     <link href="css/main.css" rel="stylesheet">
     
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-    
+    <!-- OPTIONAL: Google Fonts (don't forget to edit main.css also) -->
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-    
-    <script src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/smoothscroll.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -32,20 +33,22 @@
 
   <body>
 	
-	<div id="headerwrap">
+	<div id="header" class="header">
 		<div class="container">
 			<div class="row centered">
-				<div class="col-lg-12 animated fadeInUp">
-					<h1>William T. Kelvin</h1>
-					<h3>Web Designer | kelvin@blacktie.co</h3>
+				<div class="col-lg-12">
+					<!-- EDIT: name -->
+					<h1>Your Name</h1>
+					<!-- EDIT: title | email -->
+					<h3>Web Designer | <a href="mailto:YOU@EMAIL.com">YOU@EMAIL.com</a></h3>
 				</div><!--/.col-lg-12 -->
 			</div><!--/.row -->
 		</div><!--/.container -->
-	</div><!--/.#headerwrap -->
+	</div><!--/.header -->
 	
 
 	<section id="about" name="about"></section>
-	<div id="intro">
+	<div class="about">
 		<div class="container">
 			<div class="row">
 				
@@ -53,10 +56,12 @@
 					<h5>ABOUT</h5>
 				</div>
 				<div class="col-lg-6">
-					<p>I'm web designer & front-end developer with 7 years of professional experience. I'm interested in all kinds of visual communication, but my major focus is on designing web, mobile & tablet interfaces. I also have skills in other fields like branding, icon design or web development.</p>
+					<!-- EDIT: about -->
+					<p>This is a short description of who you are. Keep it to about 3 sentences and make sure to highlight the key points about you. What makes you stand out as an applicant?</p>
 				</div>
 				<div class="col-lg-3">
-					<p><a href="#"><i class="icon-file"></i></a> <sm>DOWNLOAD PDF</sm></p>
+					<!-- EDIT: download link -->
+					<p><a href="my-resume.pdf"><i class="icon-file"></i> <sm>DOWNLOAD PDF</sm></a></p>
 				</div>
 				
 			</div><!--/.row -->
@@ -65,29 +70,31 @@
 
 
 	<section id="resume" name="resume"></section>
-	<!--EDUCATION DESCRIPTION -->
+	<!-- EDUCATION SECTION -->
 	<div class="container desc">
 		<div class="row">
 
 				<div class="col-lg-2 col-lg-offset-1">
 					<h5>EDUCATION</h5>
 				</div>
+				<!-- EDIT: education line 1 -->
 				<div class="col-lg-6">
-					<p><t>Master of Web Design</t><br/>
-						St. Patrick University <br/>
-						<i>3 Years Course</i>
+					<p><t>Bachelor of Awesomeness</t><br/>
+						University of Maryland
+						<!--<br/><i>Extra info here</i>-->
 					</p>
 				</div>
 				<div class="col-lg-3">
-					<p><sm>GRADUATING IN MAY 2014</sm><br/>
+					<p><sm>Expected SPRING 2015</sm><br/>
 					<imp><sm>IN PROGRESS</sm></imp>
 					</p>
 				</div>
 	
+				<!-- EDIT: education line 2 -->
 				<div class="col-lg-6 col-lg-offset-3">
 					<p><t>Degree of Web Developer</t><br/>
-						Hastings University <br/>
-						<i>2 Years Course</i>
+						Hastings University
+						<!--<br/><i>Extra info here</i>-->
 					</p>
 				</div>
 				<div class="col-lg-3">
@@ -99,8 +106,7 @@
 		<hr>
 	</div><!--/.container -->
 	
-	
-	<!--WORK DESCRIPTION -->
+	<!-- WORK SECTION -->
 	<div class="container desc">
 		<div class="row">
 
@@ -108,8 +114,8 @@
 					<h5>WORK</h5>
 				</div>
 				<div class="col-lg-6">
-					<p><t>Front-end Developer</t><br/>
-						Black Tie Corp. <br/>
+					<p class="tight"><t>Front-end Developer</t><br/>
+						Thatone Corp. <br/>
 					</p>
 					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
 				</div>
@@ -118,8 +124,8 @@
 				</div>
 	
 				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Web Designer - Intern</t><br/>
-						Onassis Ltd. <br/>
+					<p class="tight"><t>Web Designer - Intern</t><br/>
+						Dontbe Ltd. <br/>
 					</p>
 					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
 				</div>
@@ -132,7 +138,7 @@
 	</div><!--/.container -->
 
 
-	<!--AWARDS DESCRIPTION -->
+	<!-- AWARDS SECTION -->
 	<div class="container desc">
 		<div class="row">
 				<div class="col-lg-2 col-lg-offset-1">
@@ -148,7 +154,7 @@
 				</div>
 	
 				<div class="col-lg-6 col-lg-offset-3">
-					<p><t>Designer of the Year</t><br/>
+					<p class="tight"><t>Designer of the Year</t><br/>
 						Awwwards Site
 					</p>
 					<p><more>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</more></p>
@@ -164,7 +170,7 @@
 
 	<section id="contact" name="contact"></section>
 	<!--FOOTER DESCRIPTION -->
-	<div id="footwrap">
+	<div id="footwrap" class="footer">
 		<div class="container">
 			<div class="row">
 			
@@ -173,33 +179,34 @@
 				</div>
 				<div class="col-lg-6">
 					<p><t>Email</t><br/>
-						william@blacktie.co <br/>
+						<a href="mailto:YOUR@EMAIL.com" class="mail">YOUR@EMAIL.com</a> <br/>
 					</p>
 					<p><t>Adress</t><br/>
-						Some Ave. 987 <br/>
-						Postal 23892 <br/>
-						London, England. <br/>
+						123 Some St. <br/>
+						City, State 01234 <br/>
+						United States of America<br/>
 					</p>
 					<p><t>Phone</t><br/>
-						+55 8933-2383 <br/>
+						<a href="tel:2345678901" class="tel">(234) 567-8901</a> <br/>
 					</p>
 				</div>
 				<div class="col-lg-3">
 					<p><sm>SOCIAL LINKS</sm></p>
 					<p>
+						<!-- EDIT: Social Links. Replace # with your URL for each -->
 						<a href="#"><i class="icon-dribbble"></i></a>
 						<a href="#"><i class="icon-twitter"></i></a>
 						<a href="#"><i class="icon-facebook"></i></a>
 						<a href="#"><i class="icon-linkedin"></i></a>
-						<a href="#"><i class="icon-apple"></i></a>
-
+						<!--<a href="#"><i class="icon-github"></i></a>-->
 					</p>
 				</div>
 			</div><!--/.row -->
 		</div><!--/.container -->
 	</div><!--/ #footer -->
 
-    <!-- Bootstrap core JavaScript: Placed at the end of the document so the pages load faster -->
+    <!-- JavaScript: Placed at the end of the document so the page loads faster -->
+    <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
   </body>
 </html>
