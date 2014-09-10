@@ -154,7 +154,8 @@ a:after {
 
 /* Header Wrap */
 .header {
-  background: url(../images/header-bg.jpg) no-repeat center top;
+  /*background: url(../images/header-bg.jpg) no-repeat center top;*/
+  background: #0074D9;
   padding-top:140px;
   text-align:center;
   background-attachment: relative;
@@ -162,7 +163,7 @@ a:after {
   min-height: 500px;
   width: 100%;
   
-  -webkit-background-size: 100%;
+  /*-webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
@@ -170,7 +171,7 @@ a:after {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 .header h1 {
@@ -181,6 +182,10 @@ a:after {
 .header h3 {
   font-size: 20px;
   color: white;
+}
+
+.header h3 a {
+  color: #fff;
 }
 
 /* About Wrap */
@@ -259,6 +264,10 @@ sm {
 
 .desc .col-lg-3 {
   text-transform: uppercase;
+}
+
+.container .row p.tight {
+  margin-bottom: 10px;
 }
 
 /* define some CSS3 animations: */
