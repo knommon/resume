@@ -37,7 +37,7 @@ p {
 
 /* Links */
 a {
-  color: #f85c37;
+  color: #60F1F1;
   word-wrap: break-word;
 
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -227,6 +227,7 @@ a:after {
   font-weight: 700;
 }
 
+/* social icons: */
 .footer i {
   padding-right: 8px;
   /*color: #1abc9c;*/
