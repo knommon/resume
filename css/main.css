@@ -1,9 +1,9 @@
 body {
-  background-color: #f2f2f2;
+  background-color: #111111; /* HEX black */
   font-family: "Lato"; /* OPTIONAL: Google Fonts - base font */
   font-weight: 300;
   font-size: 16px;
-  color: #555;
+  color: #555555; /* med-dark gray */
 
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
@@ -13,7 +13,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway"; /* OPTIONAL: Google Fonts - title font */
   font-weight: 300;
-  color: #333;
+  color: silver;
 }
 
 /* Paragraph & Typographic */
@@ -28,7 +28,7 @@ p {
 
 /* Links */
 a {
-  color: #1CBCAD;
+  color: lime;
   word-wrap: break-word;
 
   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -40,7 +40,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #7b7b7b;
+  color: #7b7b7b;    /* gray */ 
   text-decoration: none;
   outline: 0;
 }
@@ -70,7 +70,7 @@ a:after {
 /* Header Wrap */
 .header {
   background: #111111;
-  background: url(../images/header-bg.jpg) no-repeat center top; /* change header image */
+  /* background: url(../images/header-bg.jpg) no-repeat center top;  change header image */
   padding-top:140px;
   text-align:center;
   background-attachment: relative;
@@ -154,22 +154,22 @@ a:after {
 }
 
 .desc p {
-  color: #2f2f2f;
+  color: gray;
 }
 
 .desc t {
-  color: #34495e;
+  color: silver;
   font-weight: 700;
 }
 
 .desc imp {
   padding: 6px;
-  color: white;
-  background: #34495e;
+  color: lime;
+  background: gray;
 }
 
 .desc more {
-  color: #616669;
+  color: silver;
 }
 
 
