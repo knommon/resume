@@ -1,0 +1,20 @@
+to-do
+
+
+add google fonts > https://fonts.google.com/
+add about section
+add download button for pdf 
+edit education more and move to bottom add logos? 
+edit work history more
+remova awards section, perhaps add voluenteer work
+
+update skills to have more audio stuff
+add icon for IG in index.html footer 
+
+virtual pilot light e-mail admi@virtualpilotlight.com
+
+add the t.A.T.u. tribute page from codepen.io
+	add photos of t.A.T.u. jacket
+
+CSS 
+backgroud?
