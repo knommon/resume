@@ -18,3 +18,8 @@ add the t.A.T.u. tribute page from codepen.io
 
 CSS 
 backgroud?
+.header make the edge rounded
+
+add virtual pilot light logo
+
+Consieder making a home page with a link to the resume page and other nav stuff
