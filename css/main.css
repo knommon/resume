@@ -11,7 +11,7 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway"; /* OPTIONAL: Google Fonts - title font */
+  font-family: 'Press Start 2P'; /* OPTIONAL: Google Fonts - title font */ 
   font-weight: 300;
   color: silver;
 }
