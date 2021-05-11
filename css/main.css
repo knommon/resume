@@ -69,8 +69,8 @@ a:after {
 
 /* Header Wrap */
 .header {
-  background: #1CBCAD;
-  background: url(../images/header-bg.jpg) no-repeat center top;
+  background: #111111;
+  background: url(../images/header-bg.jpg) no-repeat center top; /* change header image */
   padding-top:140px;
   text-align:center;
   background-attachment: relative;
@@ -91,50 +91,50 @@ a:after {
 
 .header h1 {
   font-size: 80px;
-  color: white;
-  background: rgba(0,0,0,0.2);
+  color: silver;
+  background: rgba(0,0,0,0.2); /*red green blue alpha (alpha = transparancy) */ 
 }
 
 .header h3 {
   font-size: 20px;
-  color: white;
+  color: gray;
 }
 
 .header h3 a {
-  color: #fff;
+  color: lime;
 }
 
 /* About Wrap */
 .about {
-  background: #2c3e50;
+  background: #111111;
   padding-top: 60px;
   padding-bottom: 60px;
-  color: white;
+  color: silver;
 } 
 
 .about h5, p {
-  color: white;
+  color: silver;
 }
 
 .about i {
-  color: white;
+  color: silver;
   font-size: 20px;
   padding-right: 8px;
   vertical-align: middle;
 }
 
 .footer {
-  background: #2f2f2f;
+  background: #111111;
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
 .footer p {
-  color: white;
+  color: silver;
 }
 
 .footer h5 {
-  color: white;
+  color: gray;
 }
 
 .footer t {
