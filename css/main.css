@@ -11,10 +11,11 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Press Start 2P'; /* OPTIONAL: Google Fonts - title font */ 
+  font-family: 'Special Elite'; /* OPTIONAL: Google Fonts - title font */ 
   font-weight: 300;
   color: silver;
 }
+
 
 /* Paragraph & Typographic */
 p {
@@ -40,7 +41,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #7b7b7b;    /* gray */ 
+  color: gray;    /* gray, consider a different gray? */ 
   text-decoration: none;
   outline: 0;
 }
